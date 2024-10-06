@@ -1,0 +1,44 @@
+:root{
+    --content-height: 900px;
+}
+body{
+    background-color: red;
+    height: 100vh;
+    background-image: url('./assets/ivan-torres-MQUqbmszGGM-unsplash.jpg');
+    background-size: cover;
+    margin: 0;
+}
+nav button{
+    padding: 10px 20px;
+    width: 33%;
+    background-color: rgba(228, 27, 27, 0.4);
+    margin-top: 5px;
+    font-size: 1.4rem;
+    color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+nav button:hover{
+    background-color: rgba(228, 27, 27, 0.7);
+    box-sizing: border-box;
+}
+#content{
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: var(--content-height);
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    justify-items: center;
+    align-items: start;
+}
+.text-content{
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.img-content img{
+    height: var(--content-height);
+}
